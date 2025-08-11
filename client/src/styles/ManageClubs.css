@@ -1,0 +1,87 @@
+.manage-clubs {
+  padding: 30px;
+}
+
+.manage-clubs h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.club-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.club-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  flex: 1;
+  transition: border 0.2s ease;
+}
+
+.club-form input:focus {
+  border-color: #4a90e2;
+}
+
+.club-form button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.club-form button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 14px;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #fdfdfd;
+}
+
+tr:hover {
+  background-color: #f5f9ff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}

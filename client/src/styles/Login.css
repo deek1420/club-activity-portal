@@ -1,0 +1,46 @@
+.login-container {
+  background-color: #1e2a38; /* Same as navbar */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  color: #1e2a38;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 0.6rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1e2a38;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.login-box button:hover {
+  background-color: #15202b;
+}

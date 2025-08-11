@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #1e2a38;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky; /* Makes it stay on top */
+  top: 0; /* Stick to top */
+  z-index: 1000; /* Keep above other content */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logout-btn {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.navbar .logout-btn:hover {
+  background-color: #c0392b;
+}
